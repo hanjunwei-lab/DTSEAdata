@@ -9,8 +9,10 @@ Description: This package provides supplementary data for DTSEA.
 License: GPL (>= 2)
 Depends:
     R (>= 4.0.0)
-Imports:
-    dplyr
+Suggests:
+    DTSEA,
+    dplyr,
+    igraph
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
